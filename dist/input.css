@@ -32,6 +32,13 @@
         src: url(../fonts/Khodkar.ttf);
     }
     @font-face {
+        font-family: 'radin2';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/M_Radin2.otf);
+    }
+    @font-face {
         font-family: 'radin3';
         font-style: normal;
         font-weight: 400;
