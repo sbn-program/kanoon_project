@@ -554,3 +554,375 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'dana-demibold';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/Dana-DemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'b-fatemi';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/B-Fatemi-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'dagon';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/dagon.ttf);
+}
+
+@font-face {
+  font-family: 'khodkar';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/Khodkar.ttf);
+}
+
+@font-face {
+  font-family: 'radin3';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/M_Radin3.otf);
+}
+
+@font-face {
+  font-family: 'battle-bingo';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url(../fonts/Battle-Bingo.ttf);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.size-10 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-1\/3 {
+  width: 33.333333%;
+}
+
+.w-\[57\%\] {
+  width: 57%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.-rotate-\[10deg\] {
+  --tw-rotate: -10deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.self-end {
+  align-self: flex-end;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-tl-3xl {
+  border-top-left-radius: 1.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[\#FFCF59\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 207 89 / var(--tw-border-opacity, 1));
+}
+
+.bg-\[\#525FE1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 95 225 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F9FBFC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 251 252 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#FFCF59\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 207 89 / var(--tw-bg-opacity, 1));
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-b-fatemi {
+  font-family: b-fatemi;
+}
+
+.font-dagon {
+  font-family: dagon;
+}
+
+.font-dana-demibold {
+  font-family: dana-demibold;
+}
+
+.font-khodkar {
+  font-family: khodkar;
+}
+
+.font-radin3 {
+  font-family: radin3;
+}
+
+.font-battle-bingo {
+  font-family: battle-bingo;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[\#010877\] {
+  --tw-text-opacity: 1;
+  color: rgb(1 8 119 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#525FE1\] {
+  --tw-text-opacity: 1;
+  color: rgb(82 95 225 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#FFCF59\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 207 89 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
+}

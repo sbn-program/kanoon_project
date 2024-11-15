@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: 'dana-demibold';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/Dana-DemiBold.ttf);
+    }
+    @font-face {
+        font-family: 'b-fatemi';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/B-Fatemi-Regular.ttf);
+    }
+    @font-face {
+        font-family: 'dagon';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/dagon.ttf);
+    }
+    @font-face {
+        font-family: 'khodkar';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/Khodkar.ttf);
+    }
+    @font-face {
+        font-family: 'radin3';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/M_Radin3.otf);
+    }
+    @font-face {
+        font-family: 'battle-bingo';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../fonts/Battle-Bingo.ttf);
+    }
+}
