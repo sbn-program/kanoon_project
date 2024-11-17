@@ -53,3 +53,7 @@
         src: url(../fonts/Battle-Bingo.ttf);
     }
 }
+
+.grad{
+    background: linear-gradient(to right, #508FEF 0%, #58caf2 100%);
+}
